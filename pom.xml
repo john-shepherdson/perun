@@ -82,8 +82,13 @@
 		<logback-journal.version>0.3.0</logback-journal.version>
 		<reflections.version>0.9.12</reflections.version>
 		<testcontainers.version>1.20.3</testcontainers.version>
-        <httpmime.version>4.5.14</httpmime.version>
-        <angus-mail.version>2.0.3</angus-mail.version>
+        	<httpmime.version>4.5.14</httpmime.version>
+        	<angus-mail.version>2.0.3</angus-mail.version>
+
+		<!-- for Sonar Cloud -->
+	  	<sonar.organization>john-shepherdson</sonar.organization>
+  	  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	
 	</properties>
 
 	<!-- DEFAULT MAVEN BUILD SETTINGS
